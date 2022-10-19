@@ -6,8 +6,10 @@ for i in range(len(data)):
 print(data)
 
 # 但更好的方式是使用Python的内置枚举函数enumerate，可以直接获取到相应值及其索引
+# enumerate多用于在for循环中得到计数，利用它可以同时获得索引和值，即需要index和value值的时候可以使用
 data = [1, 4, 5, 7, 9]
 for idx, num in enumerate(data):
     if num % 2:
         data[idx] = 0
 print(data)
+
