@@ -9,3 +9,5 @@ datas = ["a", "b", "c"]
 data = "a"
 if data in datas:
     print("HHH")
+
+# 11/13
